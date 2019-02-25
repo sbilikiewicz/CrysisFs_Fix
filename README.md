@@ -50,6 +50,6 @@ jg      short loc_39688655
 </code></pre>
 
 To fix server crashing problem just open Bin64/CryNetwork.dll 
-and replace jnb loc_396887250F(83 05 01 00 00) with 90 90 90 90 90 90
-This gonna force server process some disconnect packets as corrupted
-making  
+and replace jnb loc_396887250F(8305010000) with 909090909090
+This gonna force server to process some disconnect packets as corrupted
+making it invulnerable. 
